@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@400;700;800&family=Poppins:wght@200;400;600&family=Work+Sans:wght@200;300;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  background-image: url(./images/bg-header-mobile.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Header */
+header {
+  position: relative;
+  align-items: center;
+  height: 480px;
+}
+header .bg-image {
+  width: 100vw;
+}
+header .logo {
+  position: absolute;
+  bottom: 150px;
+  left: calc(50% - 62.5px);
+  z-index: 1;
+}
+/* end header  */
+
+/* container  */
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 50px 0 25px;
+}
+.intro h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.intro p {
+  margin-bottom: 50px;
+}
+.buttons-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.btn1 {
+  -webkit-border-radius: 80;
+  -moz-border-radius: 80;
+  border-radius: 80px;
+  -webkit-box-shadow: 0px 5px 8px hsl(171, 66%, 44%);
+  -moz-box-shadow: 0px 5px 8px hsl(171, 66%, 44%);
+  box-shadow: 0px 5px 8px hsl(171, 66%, 44%);
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background: hsl(171, 66%, 44%);
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.btn2 {
+  -webkit-border-radius: 80;
+  -moz-border-radius: 80;
+  border-radius: 80px;
+  -webkit-box-shadow: 0px 5px 8px hsl(233, 100%, 69%);
+  -moz-box-shadow: 0px 5px 8px hsl(233, 100%, 69%);
+  box-shadow: 0px 5px 8px hsl(233, 100%, 69%);
+  color: #ffffff;
+  font-size: 20px;
+  background: hsl(233, 100%, 69%);
+  padding: 20px;
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.track h2 {
+  font-size: 40px;
+}
+.track p {
+  margin-bottom: 100px;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 200px;
+}
+.computer img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.computer h4 {
+  font-size: 30px;
+}
+.computer p {
+  margin-bottom: 50px;
+}
+
+.access h2 {
+  font-size: 40px;
+}
+.access p {
+  margin-bottom: 100px;
+}
+.devices {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.supercharge h2 {
+  font-size: 40px;
+}
+.supercharge p {
+  margin-bottom: 100px;
+}
+
+.operation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.card {
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.card h4 {
+  font-size: 35px;
+}
+.card p {
+  margin-bottom: 60px;
+  line-height: 1.5;
+}
+.card img {
+  margin: 0 50% 40px;
+  width: 3s0px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 200px;
+}
+
+.clipboard {
+  margin-bottom: 50px;
+}
+
+.buttons-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.btn3 {
+  -webkit-border-radius: 80;
+  -moz-border-radius: 80;
+  border-radius: 80px;
+  -webkit-box-shadow: 0px 5px 8px hsl(171, 66%, 44%);
+  -moz-box-shadow: 0px 5px 8px hsl(171, 66%, 44%);
+  box-shadow: 0px 5px 8px hsl(171, 66%, 44%);
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background: hsl(171, 66%, 44%);
+  padding: 20px;
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.btn4 {
+  -webkit-border-radius: 80;
+  -moz-border-radius: 80;
+  border-radius: 80px;
+  -webkit-box-shadow: 0px 5px 8px hsl(233, 100%, 69%);
+  -moz-box-shadow: 0px 5px 8px hsl(233, 100%, 69%);
+  box-shadow: 0px 5px 8px hsl(233, 100%, 69%);
+  color: #ffffff;
+  font-size: 20px;
+  background: hsl(233, 100%, 69%);
+  border: none;
+  padding: 20px;
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 70px 0;
+  width: 100vw;
+  background-color: hsl(201, 11%, 66%, 0.1);
+}
+footer img {
+  width: 50px;
+}
+footer .contact svg path:hover {
+  fill: hsl(171, 66%, 44%) !important;
+  cursor: pointer;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+footer ul li a {
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+}
+footer ul li a:hover {
+  color: hsl(171, 66%, 44%);
+}
+footer .contact {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: center;
+}
+footer .contact img {
+  width: 30px;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .container .history {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .history h1 {
+    font-size: 48px;
+  }
+  .buttons-top {
+    flex-direction: row;
+  }
+  .buttons-top button {
+    width: 18%;
+    display: inline;
+    margin: 0;
+  }
+
+  .track {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .computer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .computer img {
+    transform: translateX(-60px);
+  }
+  .computer .features p,
+  .computer .features h4 {
+    text-align: left;
+  }
+  .computer .features {
+    max-width: 400px;
+  }
+  .computer .features p {
+    font-size: 18px;
+  }
+
+  .access {
+    width: 50%;
+    margin: 0 auto 60px;
+  }
+  .devices {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .operation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .operation .card p {
+    font-size: 18px;
+  }
+  .operation .card h4 {
+    font-size: 28px;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 1300px;
+    margin: 0 auto 200px;
+  }
+
+  .clipboard {
+    max-width: 850px;
+    margin: 0 auto 50px;
+  }
+
+  .buttons-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .buttons-bottom button {
+    width: 40%;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 200px auto 0;
+    padding: 50px 100px 50px 250px;
+  }
+  footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+  }
+  footer .contact svg path:hover {
+    fill: hsl(171, 66%, 44%) !important;
+    cursor: pointer;
+  }
+}
