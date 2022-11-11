@@ -42,7 +42,7 @@ h6 {
 header {
   position: relative;
   align-items: center;
-  height: 480px;
+  height: 470px;
 }
 header .bg-image {
   width: 100vw;
@@ -276,6 +276,9 @@ footer .contact img {
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
+  }
+    header {
+    height: 430px;
   }
   .container .history {
     width: 800px;
